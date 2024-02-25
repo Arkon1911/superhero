@@ -1,0 +1,36 @@
+/* styles.css */
+header {
+    background-color: #333; /* Color de fondo de la barra */
+    color: #fff; /* Color del texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 30px; /* Ajusta el tamaño del logo */
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilo para el enlace activo */
+nav a.active {
+    font-weight: bold;
+    color: #ff0000;
+}
